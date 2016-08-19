@@ -53,7 +53,7 @@
 
         //update height in case of dynamic content
         s.stickyWrapper.css('height', s.stickyElement.outerHeight());
-
+        s.stickyElement.css('transform', 'translate3d(0px, 0px, 0px)');
         if (scrollTop <= etse) {
           if (s.currentTop !== null) {
             s.stickyElement
